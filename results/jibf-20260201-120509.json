@@ -1,0 +1,31 @@
+{
+  "participants": {
+    "agent": "019bc5c2-b952-7941-ac94-4cd2c3077292"
+  },
+  "results": [
+    {
+      "config": {
+        "benchmark": "tau2",
+        "domain": "retail",
+        "num_tasks": 10
+      },
+      "domain": "retail",
+      "score": 0.0,
+      "max_score": 10,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "0": 0.0,
+        "1": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "11": 0.0,
+        "14": 0.0,
+        "15": 0.0
+      },
+      "time_used": 1704.0641961097717
+    }
+  ]
+}
