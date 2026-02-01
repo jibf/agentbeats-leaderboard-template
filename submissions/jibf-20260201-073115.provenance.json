@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/jibf/green-agent-template@sha256:c64f81b8cdee4ce451c56864350fbc980a5053b5473918335f590f4556d98462",
+    "agent": "ghcr.io/jibf/agent-template@sha256:4c1f98b837d74f0500ad3d4a8923d0c3ca6f6f0ae6e6b388913a67ae080c8725",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T07:31:15Z",
+  "github_actions": {
+    "run_url": "https://github.com/jibf/agentbeats-leaderboard-template/actions/runs/21558811279",
+    "run_logs_url": "https://api.github.com/repos/jibf/agentbeats-leaderboard-template/actions/runs/21558811279/logs",
+    "ref": "refs/heads/users/jibf/dev_test",
+    "sha": "057a59c881afd8f7bd0f20ecc3656b0d1788c072",
+    "repository_url": "https://github.com/jibf/agentbeats-leaderboard-template",
+    "workflow_ref": "jibf/agentbeats-leaderboard-template/.github/workflows/run-scenario.yml@refs/heads/users/jibf/dev_test",
+    "workflow_sha": "057a59c881afd8f7bd0f20ecc3656b0d1788c072"
+  }
+}
