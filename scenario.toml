@@ -10,11 +10,17 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_UR
 
 [config]
 # Add your assessment config here
-benchmark = "tau2" # available benchmarks: bfcl, tau2 and cfb
-domain = "airline"
+benchmark = "bfcl" # available benchmarks: bfcl, tau2 and cfb
+test_category = "web_search"
 num_tasks=10
 
 # [config]
-# Add your assessment config here
+## Add your assessment config here
+# benchmark = "tau2" # available benchmarks: bfcl, tau2 and cfb
+# domain = "airline"
+# num_tasks=10
+
+# [config]
+## Add your assessment config here
 # benchmark = "cfb" # available benchmarks: bfcl, tau2 and cfb
 # num_tasks=10
