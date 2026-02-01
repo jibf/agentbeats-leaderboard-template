@@ -1,0 +1,242 @@
+{
+  "participants": {
+    "agent": "019bc5c2-b952-7941-ac94-4cd2c3077292"
+  },
+  "results": [
+    {
+      "accuracy": 0.0,
+      "correct_count": 0,
+      "total_count": 10,
+      "category_stats": {
+        "web_search_base": {
+          "success": 0,
+          "total": 10
+        }
+      },
+      "task_results": [
+        {
+          "id": "web_search_base_1",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "7",
+                "seven"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "7",
+                "seven"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_2",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"I cannot answer this question due to the inability to retrieve information about the 2024 Nobel Prize in Literature winner. Without knowing the winner, it is impossible to determine their alma mater or the current president of that institution.\"}",
+              "possible_answers": [
+                "Dong-Sup Yoon",
+                "Yoo Dong-Sup",
+                "Yoon Dong-Sup"
+              ],
+              "standardized_model_response": "{\"response\": \"i cannot answer this question due to the inability to retrieve information about the 2024 nobel prize in literature winner without knowing the winner it is impossible to determine their alma mater or the current president of that institution\"}",
+              "standardized_possible_answers": [
+                "dongsup yoon",
+                "yoo dongsup",
+                "yoon dongsup"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_3",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "1871"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "1871"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_4",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "Candlewood",
+                "Candlewood Lake"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "candlewood",
+                "candlewood lake"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_5",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "70"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "70"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_6",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "697"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "697"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_7",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"I cannot answer this question due to repeated failures in retrieving search results needed to identify the relevant Chinese company, its CEO, and the university attended. Without this information, the founding year of the university cannot be determined.\"}",
+              "possible_answers": [
+                "1897"
+              ],
+              "standardized_model_response": "{\"response\": \"i cannot answer this question due to repeated failures in retrieving search results needed to identify the relevant chinese company its ceo and the university attended without this information the founding year of the university cannot be determined\"}",
+              "standardized_possible_answers": [
+                "1897"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_8",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"{'answer': 'I do not know', 'context': 'I do not know'}\"}",
+              "possible_answers": [
+                "Black Tickets"
+              ],
+              "standardized_model_response": "{\"response\": \"{\"answer\": \"i do not know\" \"context\": \"i do not know\"}\"}",
+              "standardized_possible_answers": [
+                "black tickets"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_9",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"I cannot answer this question due to repeated failures in retrieving search results. The necessary information about Kickstarter's 2024 Chief Marketing Officer and their business school affiliation could not be accessed.\"}",
+              "possible_answers": [
+                "Srikant Madhav Datar",
+                "Srikant M. Datar",
+                "Srikant Datar"
+              ],
+              "standardized_model_response": "{\"response\": \"i cannot answer this question due to repeated failures in retrieving search results the necessary information about kickstarter\"s 2024 chief marketing officer and their business school affiliation could not be accessed\"}",
+              "standardized_possible_answers": [
+                "srikant madhav datar",
+                "srikant m datar",
+                "srikant datar"
+              ]
+            }
+          }
+        },
+        {
+          "id": "web_search_base_10",
+          "valid": false,
+          "error_type": "agentic:answer_not_found",
+          "error": "Evaluation failed",
+          "eval_result": {
+            "valid": false,
+            "error_message": "None of the expected answers were found in the model response.",
+            "error_type": "agentic:answer_not_found",
+            "details": {
+              "model_response": "{\"response\": \"I cannot answer this question due to the inability to retrieve necessary information about the host country of the G7 summit in 2024. This prevented further steps to identify the most populous city and the oldest still-in-use building there.\"}",
+              "possible_answers": [
+                "27"
+              ],
+              "standardized_model_response": "{\"response\": \"i cannot answer this question due to the inability to retrieve necessary information about the host country of the g7 summit in 2024 this prevented further steps to identify the most populous city and the oldest stillinuse building there\"}",
+              "standardized_possible_answers": [
+                "27"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
