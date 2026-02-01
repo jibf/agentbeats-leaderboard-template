@@ -11,4 +11,4 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_UR
 [config]
 # Add your assessment config here
 benchmark = "cfb" # available benchmarks: bfcl, tau2 and cfb
-num_tasks=5
+num_tasks=10
