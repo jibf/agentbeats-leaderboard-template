@@ -11,7 +11,7 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_UR
 [config]
 # Add your assessment config here
 benchmark = "bfcl" # available benchmarks: bfcl, tau2 and cfb
-test_category = "simple_python"
+test_category = "multi_turn"
 num_tasks=10
 
 # [config]
