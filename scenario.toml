@@ -1,14 +1,124 @@
+# Multi-Benchmark Green Agent Evaluation Configuration
+# Copy this file to scenario.toml and replace the placeholder values with your purple agent details
+
 [green_agent]
 agentbeats_id = "019bc5cc-c93e-7372-ad04-ec1115efe810"
-env = {RAPID_API_KEY = "${RAPID_API_KEY}", OPENAI_API_KEY="${OPENAI_API_KEY}", OPENAI_BASE_URL="${OPENAI_BASE_URL}", EVAL_MODEL="${EVAL_MODEL}", LOG_LEVEL = "INFO" }
+env = {
+    RAPID_API_KEY = "${RAPID_API_KEY}",
+    OPENAI_API_KEY = "${OPENAI_API_KEY}",
+    OPENAI_BASE_URL = "${OPENAI_BASE_URL}",
+    EVAL_MODEL = "${EVAL_MODEL}",
+    LOG_LEVEL = "INFO"
+}
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
+# TODO: Replace with your purple agent's agentbeats_id
+agentbeats_id = "YOUR_PURPLE_AGENT_ID_HERE"
+name = "simple_agent"
+env = {
+    OPENAI_API_KEY = "${OPENAI_API_KEY}",
+    OPENAI_BASE_URL = "${OPENAI_BASE_URL}",
+    OPENAI_MODEL = "${OPENAI_MODEL}"
+}
 
 [config]
-# Add your assessment config here
-benchmark = "cfb" # available benchmarks: bfcl, tau2 and cfb
-num_tasks=5
+# Choose benchmark: "bfcl", "cfb", or "tau2"
+benchmark = "cfb"
+
+# Number of tasks to evaluate (start with small number for testing)
+num_tasks = 10
+
+# ============================================================================
+# CONFIGURATION EXAMPLES
+# ============================================================================
+
+# -----------------------------------------------------------------------------
+# QUICK TEST (Recommended for first run)
+# -----------------------------------------------------------------------------
+# [config]
+# benchmark = "cfb"
+# num_tasks = 10  # Test with 10 tasks first
+
+# -----------------------------------------------------------------------------
+# BFCL (Berkeley Function Calling Leaderboard)
+# -----------------------------------------------------------------------------
+
+# Test all available BFCL_v3 & v4 tasks (2,000+ tasks)
+# [config]
+# benchmark = "bfcl"
+# test_category = "v3_v4"
+# num_tasks = -1  # -1 means all tasks
+
+# Test specific category
+# [config]
+# benchmark = "bfcl"
+# test_category = "simple_python"  # or "multi_turn_base", "parallel", etc.
+# num_tasks = 100
+
+# Test specific samples
+# [config]
+# benchmark = "bfcl"
+# sample_ids = ["simple_python_0", "simple_python_1", "multiple_0"]
+
+# -----------------------------------------------------------------------------
+# ComplexFuncBench (CFB)
+# -----------------------------------------------------------------------------
+
+# Test all CFB tasks (200+ tasks)
+# [config]
+# benchmark = "cfb"
+# num_tasks = -1  # -1 means all tasks
+
+# Test with limited tasks
+# [config]
+# benchmark = "cfb"
+# num_tasks = 50
+
+# Test specific samples
+# [config]
+# benchmark = "cfb"
+# sample_ids = ["Car-Rental-0", "Hotel-0", "Restaurant-0"]
+
+# -----------------------------------------------------------------------------
+# Tau2 (Customer Service Conversations)
+# -----------------------------------------------------------------------------
+
+# Test all Tau2 tasks across all domains (300+ tasks)
+# [config]
+# benchmark = "tau2"
+# domain = "all"
+# num_tasks = -1  # -1 means all tasks
+
+# Test specific domain
+# [config]
+# benchmark = "tau2"
+# domain = "airline"  # or "retail", "telecom"
+# num_tasks = 100
+
+# -----------------------------------------------------------------------------
+# FULL BENCHMARK EVALUATION (All tasks)
+# -----------------------------------------------------------------------------
+
+# BFCL - Complete evaluation (~2000 tasks, ~4-6 hours)
+# [config]
+# benchmark = "bfcl"
+# test_category = "v3_v4"
+# num_tasks = -1
+
+# CFB - Complete evaluation (~200 tasks, ~1-2 hours)
+# [config]
+# benchmark = "cfb"
+# num_tasks = -1
+
+# Tau2 - Complete evaluation (~300 tasks across all domains, ~2-3 hours)
+# [config]
+# benchmark = "tau2"
+# domain = "all"
+# num_tasks = -1
+
+# -----------------------------------------------------------------------------
+# NOTES
+# -----------------------------------------------------------------------------
+# 1. Always start with num_tasks = 10 for testing
+# 2. Check GitHub Actions logs to ensure everything works before running full eval
+# 3. Full evaluations can take several hours and consume significant API credits
