@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = "019bc5cc-c93e-7372-ad04-ec1115efe810"
-env = {RAPID_API_KEY = "${RAPID_API_KEY}", OPENAI_API_KEY="{OPENAI_API_KEY}", OPENAI_BASE_URL="{OPENAI_BASE_URL}", EVAL_MODEL="{EVAL_MODEL}", LOG_LEVEL = "INFO" }
+env = {RAPID_API_KEY = "${RAPID_API_KEY}", OPENAI_API_KEY="${OPENAI_API_KEY}", OPENAI_BASE_URL="${OPENAI_BASE_URL}", EVAL_MODEL="${EVAL_MODEL}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = ""
